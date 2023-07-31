@@ -17,4 +17,5 @@ void DMA_Initilize(void)
     DMA_InitStructure.DMA_Priority = DMA_Priority_Medium;
     DMA_Init(DMA1_Channel1, &DMA_InitStructure); // 硬件触发，通道不可以任意选择
     DMA_Cmd(DMA1_Channel1, ENABLE);
+    ADC_DMACmd(ADC1, ENABLE); // ADC触发DMA
 }

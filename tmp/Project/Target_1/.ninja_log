@@ -2,22 +2,22 @@
 440	1021	7125001553485762	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_crc.o	ce12488a5d08bd74
 1	34	0	CMakeFiles/database	3ad76de809d21bfb
 1	34	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/8-2 DMA+AD/tmp/Project/Target_1/CMakeFiles/database	3ad76de809d21bfb
-3	209	7125083202632081	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Hardware/ADC.o	417bba3f16dae312
+4	150	7125084483279966	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Hardware/ADC.o	417bba3f16dae312
 7	660	7125001548687296	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Hardware/OLED.o	e612e085de56b1fe
 21	429	7125001547079724	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Hardware/LED.o	b05ffdeef517ff97
 12	439	7125001547375459	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Hardware/Key.o	539c6197ef99e409
 64	471	7125001547724856	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_dac.o	fd8cbb0d33d93437
-50	449	7125001547235470	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/misc.o	f130a4acacfdd8ae
 11	210	7125083202632081	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/System/DMA.o	f4e43bedf5ee7cc
-28	460	7125001547235470	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_bkp.o	41744babecab3e32
+50	449	7125001547235470	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/misc.o	f130a4acacfdd8ae
 1513	2056	7125001563891510	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_spi.o	74f88bc462cce1b8
+28	460	7125001547235470	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_bkp.o	41744babecab3e32
 57	526	7125001548567305	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_adc.o	2f73ad9a347f9793
 460	785	7125001550964038	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_dbgmcu.o	886b989be1aa2deb
 449	834	7125001551459257	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_exti.o	b5eb65c32222ddbb
 430	889	7125001551589248	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_cec.o	d5c44257010d2fa8
-132	940	7125001552658608	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_can.o	dab2bab1699bda6c
+151	254	7125084484335259	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/8-2 DMA+AD/out/Project/Target_1/Project.axf	f95245929c579235
 1604	2054	7125001563416447	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Start/system_stm32f10x.o	3c2a1b2c2678e5c7
-181	295	7125081053852632	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/8-2 DMA+AD/out/Project/Target_1/Project.axf	f95245929c579235
+132	940	7125001552658608	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_can.o	dab2bab1699bda6c
 471	1081	7125001553667925	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_dma.o	fcdb76122e7218ff
 660	1267	7125001555389187	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Start/startup_stm32f10x_md.o	43a94053b2b5a5ea
 527	1283	7125001556149263	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_flash.o	d3617bb1f99fa4b0
@@ -36,5 +36,6 @@
 17	222	7125083202747328	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/User/main.o	58766b77ffd75ca3
 1849	2139	7125001564781436	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/User/stm32f10x_it.o	2518b8624b961cb1
 1493	2264	7125001565954162	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Library/stm32f10x_tim.o	2717c3d091861ef8
-4	150	7125084483279966	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Hardware/ADC.o	417bba3f16dae312
-151	254	7125084484335259	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/8-2 DMA+AD/out/Project/Target_1/Project.axf	f95245929c579235
+10	150	7125085368129231	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/System/DMA.o	f4e43bedf5ee7cc
+3	153	7125085368129231	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/8-2_DMA+AD/Hardware/ADC.o	417bba3f16dae312
+153	265	7125085369275785	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/8-2 DMA+AD/out/Project/Target_1/Project.axf	f95245929c579235

@@ -26,7 +26,7 @@ void ADC_Initilize(void)
     ADC_InitStructure.ADC_NbrOfChannel = 4;                             // 通道数
     ADC_Init(ADC1, &ADC_InitStructure);
     // 5.使能ADC
-    ADC_DMACmd(ADC1, ENABLE); // ADC触发DMA
+    //ADC_DMACmd(ADC1, ENABLE); // ADC触发DMA
     ADC_Cmd(ADC1, ENABLE);
     // 6.校准
     ADC_ResetCalibration(ADC1);
