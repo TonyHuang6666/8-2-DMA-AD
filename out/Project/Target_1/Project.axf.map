@@ -762,8 +762,8 @@ Section Cross References
     Delay.o(.text.Delay_s) refers to Delay.o(.text.Delay_ms) for Delay_ms
     Delay.o(.ARM.exidx.text.Delay_s) refers to Delay.o(.text.Delay_s) for [Anonymous Symbol]
     main.o(.text.main) refers to OLED.o(.text.OLED_Init) for OLED_Init
-    main.o(.text.main) refers to DMA.o(.text.DMA_Initilize) for DMA_Initilize
     main.o(.text.main) refers to ADC.o(.text.ADC_Initilize) for ADC_Initilize
+    main.o(.text.main) refers to DMA.o(.text.DMA_Initilize) for DMA_Initilize
     main.o(.text.main) refers to ADC.o(.text.ADC_GetValue) for ADC_GetValue
     main.o(.text.main) refers to main.o(.text.OUTLINED_FUNCTION_0) for OUTLINED_FUNCTION_0
     main.o(.text.main) refers to Delay.o(.text.Delay_ms) for Delay_ms

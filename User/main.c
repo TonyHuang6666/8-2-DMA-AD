@@ -7,8 +7,8 @@
 int main(void)
 {
 	OLED_Init();
-	DMA_Initilize();
 	ADC_Initilize();
+	DMA_Initilize();
 	while(1)
 	{
 		ADC_GetValue();
