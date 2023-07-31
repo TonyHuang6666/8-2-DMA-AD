@@ -46,5 +46,3 @@ void ADC_GetValue(void)
     while(DMA_GetFlagStatus(DMA1_FLAG_TC1)==RESET);//没转运完就等待
     DMA_ClearFlag(DMA1_FLAG_TC1); // 转运完了就清除标志位
 }
-
-// ADC_SoftwareStartConvCmd(ADC1,ENABLE);  //软件启动ADC转换为什么我的初始化函数还要加这个才能显示后面的数据
