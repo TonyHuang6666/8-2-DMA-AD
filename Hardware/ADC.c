@@ -36,4 +36,5 @@ void ADC_Initilize(void)
     while (ADC_GetCalibrationStatus(ADC1) == SET)//等待校准完成
         ;
     ADC_SoftwareStartConvCmd(ADC1, ENABLE);
+    //让程序在需要的时候主动触发ADC的转换则用软件触发，也可以用定时器触发，那样就实现了硬件全自动
 }
