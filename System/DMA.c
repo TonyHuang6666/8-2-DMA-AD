@@ -12,7 +12,7 @@ void DMA_Initilize(void)
     DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;//存放ADC值的数组递增
     DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralSRC;//外设作为数据源
     DMA_InitStructure.DMA_BufferSize = 4;//DMA缓存大小为4
-    DMA_InitStructure.DMA_Mode = DMA_Mode_Normal;//单次转运模式，不循环
+    DMA_InitStructure.DMA_Mode = DMA_Mode_Circular;//循环模式
     DMA_InitStructure.DMA_M2M = DMA_M2M_Disable; // 不是软件触发，而是ADC1触发
     DMA_InitStructure.DMA_Priority = DMA_Priority_Medium;//DMA优先级中等
     DMA_Init(DMA1_Channel1, &DMA_InitStructure); // 硬件触发，通道不可以任意选择

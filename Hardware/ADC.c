@@ -21,7 +21,7 @@ void ADC_Initilize(void)
     ADC_InitStructure.ADC_Mode = ADC_Mode_Independent;                  // 独立模式
     ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right;              // 右对齐
     ADC_InitStructure.ADC_ExternalTrigConv = ADC_ExternalTrigConv_None; // 软件触发
-    ADC_InitStructure.ADC_ContinuousConvMode = DISABLE;                 // 单次转换模式
+    ADC_InitStructure.ADC_ContinuousConvMode = ENABLE;                 // 连续转换模式
     ADC_InitStructure.ADC_ScanConvMode = ENABLE;                        // 扫描模式
     ADC_InitStructure.ADC_NbrOfChannel = 4;                             // 通道数
     ADC_Init(ADC1, &ADC_InitStructure);
@@ -35,14 +35,5 @@ void ADC_Initilize(void)
     ADC_StartCalibration(ADC1);//开始校准
     while (ADC_GetCalibrationStatus(ADC1) == SET)//等待校准完成
         ;
-}
-void ADC_GetValue(void)
-{
-    // 假如ADC是单次转换模式，DMA也是单次转运模式，则需要在每次转换完后重新设置DMA的传输计数器
-    DMA_Cmd(DMA1_Channel1, DISABLE); // 在修改DMA1_Channel1->CNDTR寄存器前，必须先让DMA1_Channel1失能
-    DMA_SetCurrDataCounter(DMA1_Channel1, 4);//设置传输计数器为4
-    DMA_Cmd(DMA1_Channel1, ENABLE);
     ADC_SoftwareStartConvCmd(ADC1, ENABLE);
-    while(DMA_GetFlagStatus(DMA1_FLAG_TC1)==RESET);//没转运完就等待
-    DMA_ClearFlag(DMA1_FLAG_TC1); // 转运完了就清除标志位
 }
